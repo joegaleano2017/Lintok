@@ -1,0 +1,49 @@
+{
+  "name": "lintok",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "firebase": "^3.8.0",
+    "googlemaps": "^1.12.0",
+    "react": "15.4.2",
+    "react-native": "0.42.3",
+    "react-native-action-button": "^2.6.7",
+    "react-native-background-job": "^1.2.4",
+    "react-native-background-task": "^0.1.0",
+    "react-native-elements": "^0.9.7",
+    "react-native-firebase-crash-report": "^1.2.0",
+    "react-native-image-picker": "^0.26.3",
+    "react-native-loading-spinner-overlay": "^0.5.0",
+    "react-native-material-bottom-navigation": "^0.4.0",
+    "react-native-material-design-searchbar": "^1.1.2",
+    "react-native-material-ui": "^1.8.0",
+    "react-native-mov-to-mp4": "^0.2.1",
+    "react-native-router-flux": "^3.38.0",
+    "react-native-selectme": "^1.2.3",
+    "react-native-svg": "^4.6.1",
+    "react-native-tab-view": "0.0.58",
+    "react-native-vector-icons": "^4.0.1",
+    "react-native-video": "^1.0.0",
+    "react-native-video-controls": "^1.0.1",
+    "react-native-voximplant": "^0.1.7",
+    "react-native-xtabbar": "^0.2.1",
+    "react-navigation": "^1.0.0-beta.7",
+    "react-redux": "^5.0.4",
+    "redux": "^3.6.0",
+    "redux-logger": "^3.0.1",
+    "redux-thunk": "^2.2.0"
+  },
+  "devDependencies": {
+    "babel-jest": "19.0.0",
+    "babel-preset-react-native": "^1.9.1",
+    "jest": "19.0.2",
+    "react-test-renderer": "15.4.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
